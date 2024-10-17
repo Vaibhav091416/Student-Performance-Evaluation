@@ -14,6 +14,8 @@ def get_requirements(file_path:str)->List[str]:
         if HYPHEN_E_DOT in requirements:
             requirements.remove(HYPHEN_E_DOT)
 
+    return requirements
+
 
 
 
@@ -22,6 +24,6 @@ setup(
     version='0.0.1',
     author='Vaibhav Verma',
     author_email='vaibhavverma091416@gmail.com',
-    packages=find_packages(),
+    packages=find_packages(),                                   #finds packages within the package itself bascically something to do with throught all marked init file
     install_requires=get_requirements('requirements.txt')  
 )

@@ -8,10 +8,7 @@ log_paths=os.path.join(os.getcwd(),'logs',LOG_FILE)                      #produc
 os.makedirs(log_paths,exist_ok=True)                                     #since "logs" file don't exist already it creates it for first iteration and ensures that it's not reproduced again and again
 
 LOG_FILE_PATH=os.path.join(log_paths,LOG_FILE)
-# print('---------')
-# print(log_paths)
-# print(LOG_FILE_PATH)
-# print('---------')
+
 logging.basicConfig(
     filename=LOG_FILE_PATH,
     format="[%(asctime)s] [%(levelname)s] [%(filename)s:%(lineno)d] %(name)s - %(message)s",
