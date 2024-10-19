@@ -132,3 +132,8 @@
 +conda-forge/win-64::libxgboost-2.1.1-cuda120_he04f013_4
 +conda-forge/win-64::scikit-learn-1.5.2-py310hf2a6c47_1
 # update specs: ['xgboost']
+==> 2024-10-19 18:10:28 <==
+# cmd: C:\Users\Enigma\anaconda3\Scripts\conda-script.py install dill
+# conda version: 24.9.1
++conda-forge/noarch::dill-0.3.9-pyhd8ed1ab_0
+# update specs: ['dill']
