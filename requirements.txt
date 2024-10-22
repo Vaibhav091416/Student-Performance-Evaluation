@@ -7,4 +7,5 @@ dill
 scikit-learn
 scikit-learn
 matplotlib
+Flask
 -e .
